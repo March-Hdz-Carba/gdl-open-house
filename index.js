@@ -1,11 +1,10 @@
-let map;
+const data = require('./restaurant.json')
 
-function createMap () {
-    let option = {
-        center: {lat: 43.654, lng: -79.383},
-        zoom: 10,
-        disableDefaultUI: true
-    };
-
-    map = new google.maps.Map(document.getElementById('map'), option);
-}
+console.log(data)
+// Searching for the type of Restaurant
+// const typePokemonName = ( nameType, data ) => {
+//     let typePokemon = data
+//       .filter( obj => obj.type[0] === nameType || obj.type[1] === nameType );
+//       console.log(JSON.stringify(typePokemon));
+//       return typePokemon;
+//   };

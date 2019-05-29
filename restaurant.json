@@ -1,0 +1,133 @@
+{
+    "restaurant" : [
+        {
+            "title" : "VirreyGdl" ,
+            "ubication" : "Calle Tapalpa 1, Vallarta Poniente, 44110 Guadalajara, Jal.",
+            "type": ["Informal"],
+            "prices" : "$$$"
+        },
+        {
+            "title" : "Anita Li" ,
+            "ubication" : "Av Inglaterra 3100, Vallarta Poniente, 44110 Guadalajara, Jal.",
+            "type":[
+                "Cócteles",
+                "Informal"
+              ],
+            "prices" : "$$$"
+        },
+        {
+            "title" : "I Latina" ,
+            "ubication" : "Av Inglaterra 3128, Vallarta Poniente, 44110 Guadalajara, Jal.",
+            "type":[
+                "Nocturno",
+                "Informal"
+              ],
+            "prices" : "$$$"
+        },
+        {
+            "title" : "Al Malek" ,
+            "ubication" : "Av. Adolfo López Mateos Sur 152, Vallarta, 44110 Guadalajara, Jal.",
+            "type":[
+                "Nocturno",
+                "Informal"
+              ],
+            "prices" : "$"
+        },
+        {
+            "title" : "La Tequila Cocina de Mèxico" ,
+            "ubication" : "Av Inglaterra 3100, Vallarta Poniente, 44110 Guadalajara, Jal.",
+            "type": ["Mexicana"] ,
+            "prices" : "$$"
+        },
+        {
+            "title" : "Pizzeria y cucina Italiana Da Pasquale" ,
+            "ubication" : "Av. Miguel Hidalgo y Costilla 2947, Vallarta Nte., 44690 Guadalajara, Jal.",
+            "type": ["Italiana"],
+            "prices" : "$$"
+        },
+        {
+            "title" : "Cabanna Restaurant" ,
+            "ubication" : "Av. México 2972, Juan Manuel, 44680 Guadalajara, Jal.",
+            "type": [
+                "Mexicana",
+                "Cócteles"
+              ],
+            "prices" : "$$"
+        },
+        {
+            "title" : "Restaurante Lula Bistro" ,
+            "ubication" : "San Gabriel 3030, Jardines del Bosque, 44500 Guadalajara, Jal.",
+            "type": [
+                "Cócteles",
+                "Alta Cocina"
+              ],
+            "prices" : "$$"
+        },
+        {
+            "title" : "Two Brothers Hamburguesas" ,
+            "ubication" : "Av. Ignacio L. Vallarta 3000, Vallarta Nte., 44690 Guadalajara, Jal.",
+            "type": [
+                "Comida Rápida",
+                "Informal"
+              ],
+            "prices" : "$$"
+        },
+        {
+            "title" : "La Chuza - Carnes Asadas" ,
+            "ubication" : "Calle Fernando De Celada 2856, Vallarta Nte., 44130 Guadalajara, Jal.",
+            "type": [
+                "Mexicana",
+                "Nocturno"
+              ],
+            "prices" : "$$"
+        },
+        {
+            "title" : "Ruta Náutica" ,
+            "ubication" : "Av. Ignacio L. Vallarta 3009, Vallarta Poniente, 45110 Guadalajara, Jal.",
+            "type": ["Informal"],
+            "prices" : "$$"
+        },
+        {
+            "title" : "Mariscos Pepe" ,
+            "ubication" : "Misiones 599, Jardines de Los Arcos, 44500 Guadalajara, Jal.",
+            "type": ["Marisquería"],
+            "prices" : "$$"
+        },
+        {
+            "title" : "Toks Minerva" ,
+            "ubication" : "Av. Adolfo López Mateos Sur 93, Vallarta, 44690 Guadalajara, Jal.",
+            "type": ["Informal"],
+            "prices" : "$$"
+        },
+        {
+            "title" : "Restaurante Alcalde" ,
+            "ubication" : "Av. México 2903, Vallarta Nte., 44690 Guadalajara, Jal.",
+            "type": [
+                "Mexicana",
+                "Alta Cocina"
+              ],
+            "prices" : "$$"
+        },
+        {
+            "title" : "La Casa de George" ,
+            "ubication" : "Av. Adolfo López Mateos Sur 525, Jardines del Bosque, 44520 Guadalajara, Jal.",
+            "type": ["Nocturno"],
+            "prices" : "$$"
+        },
+        {
+            "title" : "La Delgadina Fonda Urbana" ,
+            "ubication" : "Av. Ignacio L. Vallarta 3168, Vallarta Poniente, 44690 Guadalajara, Jal.",
+            "type": [
+                "Mexicana",
+                "Informal"
+              ],
+            "prices" : "$"
+        },
+        {
+            "title" : "La Trattoria De Guadalajara" ,
+            "ubication" : "Av Niños Héroes 3051, Jardines del Bosque, 44520 Guadalajara, Jal.",
+            "type": ["Italiana"],
+            "prices" : "$$"
+        }
+    ]
+}
