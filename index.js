@@ -1,11 +1,37 @@
-let map;
 
-function createMap () {
-    let option = {
-        center: {lat: 43.654, lng: -79.383},
-        zoom: 10,
-        disableDefaultUI: true
-    };
+console.log("restaurants", restaurants)
 
-    map = new google.maps.Map(document.getElementById('map'), option);
+// Searching for the type of Restaurant
+const typeRestaurants = ( data, nameType ) => {
+    let typeRest = data
+    .filter( obj => obj.type[0] === nameType || obj.type[1] === nameType );
+    return typeRest
+  };
+
+//let filter;
+const select = () => {
+    document.getElementById("printType").innerHTML = '';
+    const type = document.getElementById("selectRestaurant").value;
+    console.log(type)
+    let filter = typeRestaurants(restaurants, type)
+    console.log(filter)
+    //return filter
+    filter.map(type => {
+        type;
+        const printTypes = `
+        <section>
+        <h4> ${type.title} </h4>
+        <h6> ${type.ubication}</h6>
+        <button >
+        <img class ="buttonImg" src="${type.img}">
+        </button>
+        </section>
+        `;
+        document.getElementById("printType").innerHTML += printTypes;
+    })
+    
 }
+
+document.getElementById('buttonType').addEventListener('click', select)
+
+

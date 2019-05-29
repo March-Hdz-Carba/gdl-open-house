@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="main.css" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -13,6 +14,24 @@
     <title>Food Map :)</title>
   </head>
   <body>
-      <script></script>
+    <h1>Food map</h1>
+    <div>
+        <select id="selectRestaurant" class="value">
+        <option value="">Tipo restaurant</option>
+        <option class="typeRestaurant" value="Informal">Informal</option>
+        <option class="typeRestaurant" value="Cócteles">Cócteles</option>
+        <option class="typeRestaurant" value="Nocturno">Nocturno</option>
+        <option class="typeRestaurant" value="Mexicano">Mexicano</option>
+        <option class="typeRestaurant" value="Italiano">Italiano</option>
+        <option class="typeRestaurant" value="Marisquería">Marisquería</option>
+        </select>
+        <button id="buttonType">Enviar</button>
+    </div>
+    <section id="printType">
+      
+    </section>
+    <script type="text/javascript" src="./restaurant.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+
   </body>
 </html>
