@@ -17,6 +17,7 @@
           padding: 0;
         }
       </style>
+
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -27,23 +28,30 @@
     <script src="maps.js"></script>
     <title>Food Map :)</title>
   </head>
-  <body>
-      <div>
-          <select id="selectRestaurant" class="value">
-          <option value="">Tipo restaurant</option>
-          <option class="typeRestaurant" value="comida mexicana">Informal</option>
-          <option class="typeRestaurant" value="comida china">Cócteles</option>
-          <option class="typeRestaurant" value="comida japonesa">Nocturno</option>
-          <option class="typeRestaurant" value="comida italiana">Mexicano</option>
-          <option class="typeRestaurant" value="comida rapida">Italiano</option>
-          <option class="typeRestaurant" value="">"Marisquería"</option>
-          </select>
-          <button id="buttonType">Enviar</button>
-      </div>
+  <body> 
+      <h1>Food map</h1>
       <input id="pac-input" class="controls" type="text" placeholder="Search Box">
-      <div id="map">
-        FoodMap  
+      <div id="map"> 
       </div>
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkRfngSSrUk3_CmCTsVmoP-oezovMUn8U&libraries=places&callback=initAutocomplete" async defer></script>    
+    <div>
+        <select id="selectRestaurant" class="value">
+        <option value="">Tipo restaurant</option>
+        <option class="typeRestaurant" value="Informal">Informal</option>
+        <option class="typeRestaurant" value="Cócteles">Cócteles</option>
+        <option class="typeRestaurant" value="Nocturno">Nocturno</option>
+        <option class="typeRestaurant" value="Mexicano">Mexicano</option>
+        <option class="typeRestaurant" value="Italiano">Italiano</option>
+        <option class="typeRestaurant" value="Marisquería">Marisquería</option>
+        </select>
+        <button id="buttonType">Enviar</button>
+    </div>
+    <section id="printType">
+      
+    </section>
+     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkRfngSSrUk3_CmCTsVmoP-oezovMUn8U&libraries=places&callback=initAutocomplete" async defer></script>
+    <script type="text/javascript" src="./restaurant.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+
+
   </body>
 </html>

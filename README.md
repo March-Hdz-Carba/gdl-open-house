@@ -1,21 +1,27 @@
-# Open House
+# Foodmap
 
-![Área de trabajo e invitación a Open House](https://lh4.googleusercontent.com/eRgzC3S6emgYkLpF46d6vzx4-BRqY2QP9XjqLzsaVJZFVC80Y7oMFRuagUWw5gL5XO9SgRIwsRgLBJNFjupgi3iHFRcyybKlBq51OgSX=s1600)
+Crea una web-app que a través de un input pueda filtrar los restaurantes
+que se encuentran cerca de ti *(Tú decides la estructura que tendrán tus datos,
+puedes crear una lista de restaurantes en un arreglo, en un objeto, consumir una API, etc. Lo importante es que el contenido debe ser dinámico y no estático y el diseño es totalmente libre)*.
 
+## Flujo de la aplicación.
 
-# Objetivos
-## Empresas 
-* Conocer el trabajo y habilidades de las actuales estudiantes de Laboratoria. 
+Vista splash con duración de 2 segundos que redirecciona a tu vista
+principal.
+![Splash](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/splash.jpg?raw=true)
 
-*  Identificar en ellas talento para sus equipos de trabajo. 
+En la vista principal se muestran todos los restaurantes "cerca de ti" junto
+con el input para filtrar tu elección *(Los criterios de filtrado son decisión
+tuya, puede ser por tipo de comida, costos, orden alfabético, etc.)*.
+![vista principal](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/2.jpg?raw=true)
 
-## Estudiantes
-*  En el marco de 1 reto a trabajar durante 2 días  (ej, pre-admisión) mostrar sus talentos técnicos y habilidades profesionales. 
+Ya que se hizo la elección del filtro deben mostrarse únicamente aquellos
+restaurantes que cumplan con la condición.
+![vista filtrado](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/3.jpg?raw=true)
 
-* Equipos de 4 estudiantes a formarse libremente a más tardar el martes 28 de mayo. 
+Al seleccionar alguno de los restaurantes, deberá mostrarse la información de
+este a través de un modal.
+![modal imagen](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/5.jpg?raw=true)
 
-* 4 retos, 1 a elegir libremente el día martes 28 de mayo. Los encontraran en éste repositorio
-
-* Recibir mentoría y feedback de representantes de empresas que permitan validar el desarrollo de habilidades y competencias para el trabajo. 
-
-* Establecer relaciones cercanas con empresas contratantes y aliadas de Laboratoria. 
+Una vez cerrado el modal debe volver a la vista principal.
+![ultima vista](https://github.com/AnaSalazar/curricula-js/blob/04-social-network/04-social-network/02-jquery/08-code-challenges/foodmap/6.jpg?raw=true)
