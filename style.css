@@ -12,6 +12,11 @@ body {
   width: 1150px
 }
 
+#pac-input{
+  height: 30px;
+  width: 150px;
+}
+
 .no-padding {
   padding: 0;
 }
