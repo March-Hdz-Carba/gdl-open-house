@@ -7,7 +7,8 @@ function initAutocomplete() {
     infoWindow = new google.maps.InfoWindow;
     map = new google.maps.Map(document.getElementById('map'), {
         center: infoWindow,
-        zoom: 15
+        zoom: 15,
+        disableDefaultUI:true
         });
         
 
