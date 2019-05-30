@@ -55,8 +55,8 @@ const select = () => {
               </div> 
             </a>
             </figure>
-            <h4> ${type.title} </h4>
-            <h6> ${type.ubication}</h6>
+            <h4 class="titleType"> ${type.title} </h4>
+            <h6 class="titleUbication"> ${type.ubication}</h6>
           </div>
     </div>
         `;

@@ -28,9 +28,58 @@ body {
     
 }
 
+.typeSelect{
+  height: 30px;
+  width: 200px;
+  background: #243540;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+    position: relative;
+    margin: 7px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+
+}
+.typeSelectButton{
+  height: 30px;
+  width: 100px;
+  background: white;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 30px;
+    text-align: center;
+    color: #243540;
+    position: relative;
+    margin: 7px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
 #pac-input::placeholder {
   color:white;
 }
+
+#divType{
+  position: relative;
+  left: 400px;
+  margin: 20px;
+}
+.titleType{
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 5px;
+  font-family: "Open Sans" sans-serif;
+}
+.titleUbication{
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-family: "Open Sans" sans-serif;
+}
+
 
 .no-padding {
   padding: 0;
@@ -437,7 +486,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
-  padding: 100px 0;
+  padding: 30px 0;
 }
 
 .mu-about-us-area {
@@ -508,7 +557,7 @@ img {
 
 #mu-counter {
   background-attachment: fixed;
-  background-image: url("assets/img/counter-bg.jpeg");
+  background-image: url("https://lh3.googleusercontent.com/CPX8segJ9A2k5ww1NL-te9jH_OvgFJjgMXMwJoz7zUtyZApNjGSHrODrCjDXx8G4Tt7sw8nN_0SoWVyYZf1bOXmY_AU5htQv4ekVgx0UpWWMymfrjb92-U3WpC5w2Ktg4VQLvTWq9-9evYWMDVNK_AXmheIRcMgol_0zrY9AVhjflhRLgPnNwHmoByZdlIC9OHFeRxn08bolStLlKm7xUkMpAbQ2ItPp5RkRE0IDOLSVeObWNZbKw5Hw87koD7mBK955HZCJ1Yu_evdvbAAEJoW9NT4QXjFXXnaNA-ugSlMcMv-HBkGH0b6t7NgVzPxG6XffQQCgIkSuogxQfKLxfzh9BJRLUBpjW-g61O7r_WB16yq_yB0TAVI8GNomx6CgWTfkjQQDIOc47wS9xs5_n7C6TnkNkgW9etMo-7ng-d_dRot1ktkMKntiF8ze5GGVjzWBVW3WN_HKEMFO7Zr9b1sin-mS5xVJK5LvFOvbss225FrrRKTcr7lBJ3aEV_1vitvgIRY-3sXOBfMQSIhmnkvugmSxkTqVdk8VIr___BHowcqXppAvd5zKMPUhx9Bw1QpS6JiI36XMq1syJVwiag3eEsLrj30nzPdaTzuhfPqO3fUGt4-YIYwbKQWuUhd5LMQqqHl_BqO5bO9iCecQy4_fWC0NA60=w1024-h576-no");
   background-size: cover;
   display: inline;
   float: left;
@@ -914,7 +963,6 @@ RESERVATION SECTION
 #mu-gallery {
   display: inline;
   float: left;
-  padding: 100px 0;
   width: 100%;
 }
 
