@@ -7,6 +7,11 @@ body {
   line-height: 24px;
 }
 
+#map {
+  height: 500px;
+  width: 1150px
+}
+
 .no-padding {
   padding: 0;
 }
