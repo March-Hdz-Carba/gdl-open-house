@@ -13,8 +13,23 @@ body {
 }
 
 #pac-input{
-  height: 30px;
-  width: 150px;
+  height: 50px;
+  width: 380px;
+  background: #243540;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 30px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    margin: 7px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    
+}
+
+#pac-input::placeholder {
+  color:white;
 }
 
 .no-padding {
@@ -310,6 +325,7 @@ img {
 
 .mu-top-slider .mu-top-slider-single .mu-top-slider-content {
   position: absolute;
+  font-family: "Open Sans", sans-serif;
   left: 15%;
   top: 30%;
   right: 15%;
@@ -479,10 +495,10 @@ img {
 }
 
 .mu-title h2 {
-  color: #000000;
-  font-size: 35px;
+  color: #fff;
+  font-size: 30px;
   margin-bottom: 5px;
-  font-family: "Tangerine", cursive;
+  font-family: "Open Sans" sans-serif;
 }
 
 
@@ -1715,7 +1731,12 @@ RESERVATION SECTION
   height: 200px;
   width: 380px;
  }
-  
+ .mu-title h2 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 2px;
+  font-family: "Open Sans" sans-serif;
+}
   
   
 }
