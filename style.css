@@ -7,6 +7,11 @@ body {
   line-height: 24px;
 }
 
+#map {
+  height: 500px;
+  width: 1150px
+}
+
 .no-padding {
   padding: 0;
 }
@@ -300,6 +305,7 @@ img {
 
 .mu-top-slider .mu-top-slider-single .mu-top-slider-content {
   position: absolute;
+  font-family: "Open Sans", sans-serif;
   left: 15%;
   top: 30%;
   right: 15%;
@@ -469,10 +475,10 @@ img {
 }
 
 .mu-title h2 {
-  color: #000000;
-  font-size: 35px;
+  color: #fff;
+  font-size: 40px;
   margin-bottom: 5px;
-  font-family: "Tangerine", cursive;
+  font-family: "Open Sans" sans-serif;
 }
 
 
@@ -1701,6 +1707,11 @@ RESERVATION SECTION
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li {
     margin-bottom: 10px;
   }
+ #map{
+  height: 200px;
+  width: 380px;
+ }
+  
   
   
 }
