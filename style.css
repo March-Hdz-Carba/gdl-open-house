@@ -1785,8 +1785,40 @@ RESERVATION SECTION
   margin-bottom: 2px;
   font-family: "Open Sans" sans-serif;
 }
-  
-  
+#pac-input {
+  height: 30px;
+  width: 160px;
+  position: relative;
+  margin: 7px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+}
+.typeSelect {
+  height: 30px;
+  width: 140px;
+  font-size: 15px;
+}
+.typeSelectButton{
+  height: 30px;
+  width: 100px;
+  font-size: 15px;
+}
+
+
+#divType {
+  position: relative;
+  left: 35px;
+  margin: 20px;
+
+}
+
+.titleType {
+  font-size: 20px;
+}
+
+.titleUbication {
+  font-size: 10px;
+}
 }
 
 @media (max-width: 360px) {

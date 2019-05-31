@@ -45,7 +45,7 @@ const select = () => {
     filter.map(type => {
         type;
         const printTypes = `
-        <div class="mu-single-gallery col-md-4">
+        <div class="mu-single-gallery col-md-4 col-xs-4">
         <div class="mu-single-gallery-item">
             <figure class="mu-single-gallery-img">
               <a class="mu-imglink" target="_blank" href="${type.page}">
